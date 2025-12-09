@@ -1,0 +1,40 @@
+.info-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    background-color: #f5f5f5;
+}
+.brand-info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.brand-info h2{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    margin:20px 0px;
+}
+
+.brand-info p{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    margin: 0px 200px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-info h2{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+}
+.contact-info p{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}

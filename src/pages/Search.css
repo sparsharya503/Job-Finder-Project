@@ -1,0 +1,27 @@
+.job-search-filter{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.job-search-filter input{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.job-results{
+    margin-left: 40px;
+}
+
+.job-card{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    max-width: 80vw;
+}

@@ -1,0 +1,31 @@
+.call-to-action{
+    margin-top: 0px;
+    background: linear-gradient(135deg, #ff0000, #9c0707);
+    color:#ffffff;
+}
+
+.main-title {
+    padding: 100px;
+    text-align: center;
+}
+
+.main-title h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-title h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-title button{
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: none;
+}

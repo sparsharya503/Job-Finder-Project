@@ -1,0 +1,151 @@
+/* Styles for AboutUs page */
+.about-container {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  color: #1f2937;
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  background: linear-gradient(90deg, #0ea5a5 0%, #06b6d4 100%);
+  color: white;
+  padding: 48px 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-title {
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+.hero-sub {
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+.hero-lead {
+  opacity: 0.95;
+  margin: 0;
+}
+
+.about-mission {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 32px 0;
+  flex-wrap: wrap;
+}
+.mission-text {
+  flex: 1 1 420px;
+}
+.mission-text h2 {
+  margin-top: 0;
+}
+.mission-stats {
+  display: flex;
+  gap: 12px;
+  flex: 1 1 240px;
+  justify-content: space-between;
+}
+.stat {
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 80px;
+}
+.stat-value {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.stat-label {
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.about-values {
+  margin: 32px 0;
+}
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+.value-card {
+  background: #fff;
+  border: 1px solid #e6e9ee;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.about-team {
+  margin: 32px 0;
+}
+.team-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.team-member {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9eef6;
+  padding: 12px;
+  border-radius: 8px;
+}
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #06b6d4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.member-role {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.about-timeline {
+  margin: 32px 0;
+}
+.about-timeline ul {
+  padding-left: 1.1rem;
+}
+
+.about-cta {
+  text-align: center;
+  padding: 20px;
+  margin: 28px 0;
+}
+.cta-button {
+  display: inline-block;
+  background: #0f172a;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .about-mission {
+    flex-direction: column;
+  }
+  .mission-stats {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
